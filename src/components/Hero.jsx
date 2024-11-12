@@ -10,10 +10,10 @@ function Hero() {
         <p className="text-gray-600">
           Whether you're hosting seminars, closing deals, or connecting with loved ones, our platform ensures crystal-clear communication, advanced features, and unparalleled ease of use.
         </p>
-        <button className="px-6 py-2 bg-black text-white rounded hover:bg-gray-700">
+        <button className="px-6 py-2 bg-black text-white rounded-full hover:bg-gray-700">
           Create Meeting
         </button>
-        <button className="px-6 py-2 text-black border border-black rounded hover:bg-gray-200">
+        <button className="px-6 py-2 text-black border border-black rounded-full hover:bg-gray-200">
           Enter Code
         </button>
       </div>
