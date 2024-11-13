@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -6,12 +7,12 @@ function Navbar() {
       <div className="text-lg font-bold">Echomeet</div>
       
       <div className="bg-gray-100 px-4 py-2 rounded-full flex space-x-4">
-        <a
-          href="#features"
+        <Link
+          to="/features"
           className="text-gray-600 px-4 py-2 rounded-full hover:bg-black hover:text-white transition duration-300"
         >
           Features
-        </a>
+        </Link>
         <a
           href="#resources"
           className="text-gray-600 px-4 py-2 rounded-full hover:bg-black hover:text-white transition duration-300"

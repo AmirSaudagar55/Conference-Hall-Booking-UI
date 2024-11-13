@@ -1,7 +1,9 @@
 import React from 'react';
+import CustomRequest from './CustomRequest';
 
 function Hero() {
   return (
+    <>
     <section className="flex flex-col md:flex-row items-center justify-between p-8">
       <div className="space-y-4 md:w-1/2">
         <h1 className="text-4xl font-bold text-gray-800">
@@ -21,6 +23,10 @@ function Hero() {
         <img src="meeting-room-sample.jpg" alt="Meeting Room" className="w-full max-w-md rounded-lg shadow-lg" />
       </div>
     </section>
+    <div className="p-8 flex flex-col md:flex-row justify-between">
+          <CustomRequest />
+    </div>
+    </>
   );
 }
 
